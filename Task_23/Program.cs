@@ -6,7 +6,7 @@ int index = 1;
 Console.WriteLine($"Кубы чисел от 1 до {number}: ");
 while (index <= number)
 {
-    int result = index * index*index;
+    int result = index * index * index;
     Console.Write($"{result}, ");
     index++;
 }

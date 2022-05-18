@@ -9,8 +9,8 @@ while (input > 0)
     if (num > 0)
     {
         count++;
-        input--;
     }
+    input--;
 }
 Console.WriteLine(count);
 

@@ -4,11 +4,11 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 Console.WriteLine("Введите количество строк");
-int row = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов");
-int col = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
-double[,] array = new double[row, col];
+double[,] array = new double[m, n];
 FillArray(array);
 PrintArray(array);
 

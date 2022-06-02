@@ -44,7 +44,7 @@ Console.WriteLine($"Находится на строке {row + 1}, в стол�
 int posX = 0;
 int posY = 0;
 int[,] newArray = new int[m - 1, n - 1];
-for (int i = 0; i < newArray.GetLength(0); i++)
+for (int i = newArray.GetLength(0) - 1; i >= 0; i--)
 {
     if (posX == row)
     {
